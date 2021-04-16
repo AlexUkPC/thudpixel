@@ -21,7 +21,24 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+# A modern CSS framework based on Flexbox
+gem 'bulma-rails', '~> 0.8.2' #(https://rubygems.org/gems/bulma-rails)
+# Forms made easy!
+gem 'simple_form', '~> 5.0', '>= 5.0.2' #(https://rubygems.org/gems/simple_form)
+# A configurable and documented Rails view helper for adding gravatars into your Rails application.
+gem 'gravatar_image_tag', '~> 1.2' #(https://rubygems.org/gems/gravatar_image_tag)
+# Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 4.7', '>= 4.7.1' #(https://rubygems.org/gems/devise)
+#Upload files in your Ruby applications, map them to a range of ORMs, store them on different backends.
+gem 'carrierwave', '~> 1.2', '>= 1.2.1' #(https://rubygems.org/gems/carrierwave)
+#Manipulate images with minimal use of memory via ImageMagick / GraphicsMagick
+gem 'mini_magick', '~> 4.10', '>= 4.10.1' #(https://rubygems.org/gems/mini_magick)
+#Log impressions from controller actions or from a model
+gem 'impressionist', '~> 2.0' #(https://rubygems.org/gems/impressionist)
+#This gem provides jQuery and the jQuery-ujs driver for your Rails 4+ application.
+gem 'jquery-rails', '~> 4.4' #(https://rubygems.org/gems/jquery-rails)
+#Rails gem to allowing records to be votable
+gem 'acts_as_votable', '~> 0.12.1' #(https://rubygems.org/gems/acts_as_votable)
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -42,6 +59,8 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  # local/instance variable inspection for all stack frames
+  gem 'better_errors', '~> 2.7', '>= 2.7.1' #(https://rubygems.org/gems/better_errors)
 end
 
 group :test do
